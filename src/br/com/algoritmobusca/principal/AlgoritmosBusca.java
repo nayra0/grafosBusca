@@ -76,6 +76,7 @@ public class AlgoritmosBusca {
         startTimer();
         BuscaProfundidade.busca(g4, new No("1"));
         printTimer();
+        g4.grausVertices();
         System.out.println("-----------------------------------------");
     }
 
@@ -91,6 +92,7 @@ public class AlgoritmosBusca {
         startTimer();
         BuscaProfundidade.busca(g8, new No("1"));
         printTimer();
+        g8.grausVertices();
         System.out.println("-----------------------------------------");
     }
 
@@ -106,6 +108,7 @@ public class AlgoritmosBusca {
         startTimer();
         BuscaProfundidade.busca(g12, new No("1"));
         printTimer();
+        g12.grausVertices();
         System.out.println("-----------------------------------------");
     }
 
@@ -121,6 +124,7 @@ public class AlgoritmosBusca {
         startTimer();
         BuscaProfundidade.busca(g16, new No("1"));
         printTimer();
+        g16.grausVertices();
         System.out.println("-----------------------------------------");
     }
 

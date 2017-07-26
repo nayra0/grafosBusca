@@ -49,6 +49,12 @@ public class Grafo {
         }
     }
 
+    public void grausVertices() {
+        for (String vertices : this.nos.keySet()) {
+            System.out.println(vertices + " : " + this.nos.get(vertices).getNosAdjacentes().size());
+        }
+    }
+
     public HashMap<String, No> getNos() {
         return nos;
     }
